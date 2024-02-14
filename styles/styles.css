@@ -102,6 +102,11 @@ li + li{
     background-image: url(../imagens/WhatsApp\ Image\ 2023-11-07\ at\ 17.51.53.jpeg) ;
     background-size:cover;
 }
+.noticiaDois{
+    background-image: url(../imagens/WhatsApp\ Image\ 2023-11-08\ at\ 15.40.31.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
 /*-----------------------------article fim--------------------------*/
 
 /*----------------------footer inicio ------------------------------*/
@@ -134,6 +139,6 @@ footer{
         list-style: none;
     }
     header a{
-        font-size: 20px; 
+        font-size: 15px; 
     }
 }
