@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 header{
@@ -25,7 +26,12 @@ nav a{
     color: black;
     font-size: 30px;
     margin-top: 20px;
-    
+    transition: 1s ease;  
+}
+nav a:hover{
+    scale: 1.1;
+    transition: 1s ease;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.507);
 }
 /*----------------------Header fim ------------------------------*/
 /*-------------------------Main começo------------------------*/
@@ -40,31 +46,61 @@ main{
 /*-------------------------Aside começo------------------------*/
 aside{
     width: 25%;
-    height: 600px;
-    border: 1px solid black;
-    border-radius: 10px;
+    margin: 0;
+    font-family: sans-serif;
+}
+summary{
+    all: unset;
+    padding: 16px;
+    background-color: #007da5;
+    width: 100%;
+    cursor: pointer;
+
+}
+details{
+    background-color:rgb(226, 232, 243);
+   
+}
+
+ul{
+    padding-bottom: 16px;
+    font-size: 0.8rem;
+    
+}
+li + li{
+    margin-top: 0.5rem;
 }
 /*-------------------------Aside  fim------------------------*/
 /*-----------------------------principal Incio--------------------------*/
 .principal{
     max-width: 75%;
-    height: 600px;
-    border: 1px solid black;
     border-radius: 10px;
     margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center; 
     
 }
 /*-----------------------------principal Fim--------------------------*/
 
 /*-----------------------------article inicio--------------------------*/
-.principal article{
+.principal a{
     width: 200px;
     height: 200px;
-    background-color: aqua ;
+    border: solid 1px black;
     margin: 10px;
+    border-radius: 10px;
+    
+}
+.principal a:hover{
+    scale: 1.1;
+    transition: 1s ease;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.507);
+}
+
+.noticiaUm{
+    background-image: url(../imagens/WhatsApp\ Image\ 2023-11-07\ at\ 17.51.53.jpeg) ;
+    background-size:cover;
 }
 /*-----------------------------article fim--------------------------*/
 
@@ -87,6 +123,17 @@ footer{
 }
 /*----------------------footer fim  ------------------------------*/
 
-@media(max-width: 300px){
-
+@media(max-width: 500px){
+    main{
+        display:inline-block;
+    }
+    aside{
+        margin-left: 70px;
+    }
+    ul{
+        list-style: none;
+    }
+    header a{
+        font-size: 20px; 
+    }
 }
