@@ -87,7 +87,7 @@ li + li{
 .principal a{
     width: 200px;
     height: 200px;
-    border: solid 1px black;
+    /*border: solid 1px black;*/
     margin: 10px;
     border-radius: 10px;
     
