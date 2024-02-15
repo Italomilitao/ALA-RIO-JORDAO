@@ -71,9 +71,6 @@ ul{
 li + li{
     margin-top: 0.5rem;
 }
-.ConteudoAside{
-    text-align: justify;
-}
 /*-------------------------Aside  fim------------------------*/
 /*-----------------------------principal Incio--------------------------*/
 .principal{
@@ -153,6 +150,9 @@ footer{
     summary{
         padding: 10px;
         width: 95%;
+    }
+    .ConteudoAside{
+        text-align: justify;
     }
 
 
