@@ -48,6 +48,7 @@ aside{
     width: 25%;
     margin: 0;
     font-family: sans-serif;
+    text-align: center;
 }
 summary{
     all: unset;
@@ -141,4 +142,16 @@ footer{
     header a{
         font-size: 15px; 
     }
+    aside{
+        width: 100%;
+        margin: 0;
+        
+    }
+    summary{
+        padding: 10px;
+        width: 95%;
+    }
+
+
+    
 }
