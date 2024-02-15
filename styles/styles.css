@@ -66,10 +66,18 @@ details{
 ul{
     padding-bottom: 16px;
     font-size: 0.8rem;
+    list-style: none;
     
 }
 li + li{
     margin-top: 0.5rem;
+}
+#mensagemBispo{
+    text-align: justify;
+    padding: 5px;
+}
+hr{
+    color: black;
 }
 /*-------------------------Aside  fim------------------------*/
 /*-----------------------------principal Incio--------------------------*/
