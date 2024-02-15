@@ -57,6 +57,11 @@ main h1{
     transition: 1s ease;
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.507);
 }
+
+div a{
+    text-decoration: none;
+    color:black ;
+}
 /*----------------------Main Fim ------------------------------*/
 
 
@@ -93,5 +98,5 @@ footer{
     #presidentequorum{
         order: -1;
     }
-    
+
 }
