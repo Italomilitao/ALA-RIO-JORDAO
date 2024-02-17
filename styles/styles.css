@@ -128,18 +128,18 @@ footer{
 }
 .icons
 {
-    margin: 20px;
+    margin-left: 20px;
+    
     
 }
 .icons a{
-    margin: 5px;
-    
+    margin: 5px;   
 }
 /*----------------------footer fim  ------------------------------*/
 
 @media(max-width: 500px){
     main{
-        display:inline-block;
+        display:contents;
     }
     aside{
         margin-left: 70px;
@@ -162,9 +162,10 @@ footer{
     .ConteudoAside{
         text-align: justify;
     }
+    .principal {
+        margin-left: 40px;
 
-
-
+    }
 
     
 }

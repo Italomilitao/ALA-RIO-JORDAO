@@ -98,5 +98,14 @@ footer{
     #presidentequorum{
         order: -1;
     }
+    #socSoc{
+        order: -1; 
+    }
+    #mocas{
+        order: -1;  
+    }
+    #primaria{
+        order: -1; 
+    }
 
 }
